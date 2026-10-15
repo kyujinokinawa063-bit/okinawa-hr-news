@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>沖縄 求人ニュース</title>
+<style>
+:root{--navy:#14284b;--bg:#f4f6fa;--card:#fff;--tx:#1d2433;--mu:#667085;--ac:#e8a317}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,"Hiragino Sans","Yu Gothic",sans-serif;background:var(--bg);color:var(--tx)}
+header{background:var(--navy);color:#fff;padding:18px 16px}header h1{margin:0;font-size:20px}header p{margin:4px 0 0;font-size:12px;opacity:.75}
+main{max-width:860px;margin:0 auto;padding:14px}
+h2{font-size:15px;color:var(--navy);margin:18px 0 8px;border-left:4px solid var(--ac);padding-left:8px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}.ctl select,.ctl input[type=search]{padding:7px;border:1px solid #cfd6e3;border-radius:6px;font-size:14px}
+.ctl input[type=search]{flex:1;min-width:140px}
+.card{background:var(--card);border-radius:8px;padding:10px 12px;margin-bottom:8px;border:1px solid #e3e8f0}
+.t{color:var(--navy);font-weight:600;text-decoration:none;line-height:1.5}.t:hover{text-decoration:underline}
+.m{font-size:12px;color:var(--mu);margin-top:4px}.tag{display:inline-block;background:#e8edf7;color:var(--navy);border-radius:10px;padding:0 8px;margin-right:4px;font-size:11px}
+.tag.o{background:var(--ac);color:#fff}.talk{font-size:12px;margin-top:6px;padding:6px 8px;background:#fff8e6;border-radius:6px}
+.dh{font-size:13px;font-weight:700;color:var(--navy);margin:14px 0 6px}
+</style></head><body>
+<header><h1>沖縄 求人ニュース</h1><p>毎朝自動更新 ／ 見出しとリンクのみ掲載（本文は各社サイトで） ／ 更新: __TODAY__</p></header>
+<main>
+<h2>今週のダイジェスト（直近7日・注目5件）</h2><div id="dg"></div>
+<h2>記事一覧・検索</h2>
+<div class="ctl">
+<select id="pd"><option value="0">今日</option><option value="7" selected>7日</option><option value="30">30日</option><option value="9999">全期間</option></select>
+<select id="ct"><option value="">全カテゴリ</option></select>
+<label><input type="checkbox" id="ok"> 沖縄のみ</label>
+<input type="search" id="q" placeholder="キーワード検索">
+</div>
+<div id="ls"></div>
+</main>
+<script>
+const A=__DATA__,T=new Date("__TODAY__T00:00:00+09:00"),$=s=>document.querySelector(s);
+const ago=a=>Math.round((T-new Date(a.date+"T00:00:00+09:00"))/864e5);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+[...new Set(A.flatMap(a=>a.cats))].forEach(c=>{const o=el("option",0,c);o.value=c;$("#ct").append(o)});
+function card(a,talk){const d=el("div","card"),h=el("a","t",a.title);h.href=a.url;h.target="_blank";h.rel="noopener";d.append(h);
+const m=el("div","m");if(a.oki)m.append(el("span","tag o","沖縄"));a.cats.forEach(c=>m.append(el("span","tag",c)));
+m.append(a.date+" ・ "+a.source);d.append(m);if(talk&&a.talk)d.append(el("div","talk","営業トーク例：" +a.talk));return d}
+function render(){
+const dg=$("#dg");dg.replaceChildren();
+const top=A.filter(a=>ago(a)<=7).sort((x,y)=>y.score-x.score).slice(0,5);
+top.length?top.forEach(a=>dg.append(card(a,true))):dg.append(el("div","m","該当する記事がまだありません。"));
+const p=+$("#pd").value,c=$("#ct").value,o=$("#ok").checked,q=$("#q").value.trim();
+const L=A.filter(a=>ago(a)<=p&&(!c||a.cats.includes(c))&&(!o||a.oki)&&(!q||(a.title+a.source).includes(q)));
+const ls=$("#ls");ls.replaceChildren();let last="";
+L.forEach(a=>{if(a.date!==last){ls.append(el("div","dh",a.date));last=a.date}ls.append(card(a,false))});
+if(!L.length)ls.append(el("div","m","条件に合う記事がありません。"))}
+["pd","ct","ok","q"].forEach(i=>$("#"+i).addEventListener("input",render));render();
+</script></body></html>
