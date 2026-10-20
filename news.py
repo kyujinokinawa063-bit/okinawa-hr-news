@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """沖縄中心の求人ニュースを集めて docs/index.html を作る。APIキー不要・無料。"""
-import json, re, hashlib, pathlib, urllib.parse, datetime as dt
+import json, re, sys, hashlib, pathlib, urllib.parse, datetime as dt
 import feedparser
 
 ROOT = pathlib.Path(__file__).parent
@@ -91,6 +91,8 @@ def ingest(feed):
         d = dt.datetime(*t[:6], tzinfo=dt.timezone.utc).astimezone(JST)
         if d > now + dt.timedelta(days=1) or (now - d).days > MAX_AGE:
             continue
+        if not e.get("link") or not e.get("title"):
+            continue  # リンクや見出しのない記事は捨てる
         raw = e.get("title", "").strip()
         title = raw.rsplit(" - ", 1)[0] if " - " in raw else raw
         src = (e.get("source") or {}).get("title") or (raw.rsplit(" - ", 1)[1] if " - " in raw else "")
@@ -117,7 +119,7 @@ def merge_and_build(new):
                   key=lambda a: (a["date"], a["score"]), reverse=True)
     DATA.write_text(json.dumps(arts, ensure_ascii=False, indent=1), "utf-8")
     page = (ROOT / "template.html").read_text("utf-8")
-    blob = json.dumps(arts, ensure_ascii=False).replace("</", "<\\/")
+    blob = json.dumps(arts, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     (ROOT / "docs" / "index.html").write_text(
         page.replace("__DATA__", blob).replace("__TODAY__", today.isoformat()), "utf-8")
     print(f"新規 {len(new)} 件 / 累計 {len(arts)} 件")
@@ -125,12 +127,17 @@ def merge_and_build(new):
 
 def main():
     urls = [gnews(q["q"]) for q in CFG["queries"]] + [gnews(q) for q in EXTRA_QUERIES] + list(CFG["rss"])
-    new = []
+    new, fetched = [], 0
     for url in urls:
         try:
-            new += ingest(feedparser.parse(url))
+            feed = feedparser.parse(url)
+            fetched += len(feed.entries)
+            new += ingest(feed)
         except Exception as ex:  # 1つ失敗しても続行
             print("取得失敗:", url, ex)
+    if fetched == 0:  # 全部の取得に失敗した日は、古いデータを「今日の更新」として出さない
+        print("ニュースを1件も取得できませんでした。ページは更新しません。")
+        sys.exit(1)
     merge_and_build(new)
 
 
