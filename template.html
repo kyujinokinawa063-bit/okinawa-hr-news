@@ -3,124 +3,156 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>沖縄 求人ニュース</title>
 <style>
-:root{--lk:#0a2a8a;--bd:#8fb4f0;--hd:#dcebff;--red:#e60033;--blue:#1f5fe0;--ok:#ff5a1f;--mu:#444}
+:root{--navy:#17387a;--blue:#2563c9;--bg:#f3f6fb;--bd:#d6dfee;--tx:#1f2937;--mu:#566074;--ok:#d9622b;--red:#d62839}
 *{box-sizing:border-box}
-body{margin:0;font-family:Meiryo,"メイリオ","Hiragino Sans","Yu Gothic",sans-serif;background:#eaf3ff;color:#111;font-size:16px;line-height:1.6}
-a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1160px;margin:0 auto;padding:0 12px}
-.top{background:linear-gradient(90deg,#ff4d2e,#ff9a1f);color:#fff;font-size:13px;font-weight:700;padding:7px 0}.top .wrap{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
-.hd{display:flex;align-items:center;gap:18px;padding:16px 0 12px}
-.logo{font-size:34px;font-weight:900;color:var(--red);line-height:1.1;white-space:nowrap}.logo small{display:block;font-size:12px;font-weight:700;color:var(--blue);letter-spacing:.15em;text-align:right}
-.sb{flex:1;background:#fff;border:3px solid var(--blue);border-radius:10px;padding:8px;display:flex;gap:8px}
-.sb input{flex:1;min-width:0;border:0;padding:8px 10px;font-size:17px;font-family:inherit;outline:0}
-.sb button{background:var(--blue);color:#fff;border:0;border-radius:6px;padding:0 26px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer}
-.tick{font-size:15px;font-weight:700;padding:2px 0 12px;display:flex;gap:20px;flex-wrap:wrap}
-.grid{display:grid;grid-template-columns:210px 1fr 310px;gap:16px;align-items:start;padding-bottom:40px}.grid>*{min-width:0}
-.box{border:2px solid var(--bd);border-radius:10px;margin-bottom:16px;background:#fff;overflow:hidden;box-shadow:0 2px 6px rgba(31,95,224,.12)}
-.bh{background:linear-gradient(90deg,#1f5fe0,#3d8bff);padding:11px 14px;font-weight:700;font-size:17px;color:#fff;display:flex;justify-content:space-between;align-items:center}
-.bh select{font-size:14px;padding:4px;font-family:inherit}
-.menu a{display:flex;align-items:center;gap:10px;padding:12px 12px;border-top:1px solid #dfe8f7;font-size:16px;font-weight:700;color:#111;cursor:pointer}
-.menu a:first-child{border-top:0}.menu a:hover{background:#fff4d6;text-decoration:none}
-.menu a.on{background:#ffe9a8;box-shadow:inset 6px 0 0 var(--red)}
-.menu i{font-style:normal;width:32px;height:32px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;background:var(--c);flex:none}
-.menu em{margin-left:auto;font-style:normal;font-size:13px;font-weight:700;background:#eef3ff;color:var(--lk);border-radius:999px;padding:0 9px}
-.tabs{display:flex;overflow-x:auto;background:#f3f8ff;border-bottom:3px solid var(--blue);scrollbar-width:none}
+body{margin:0;font-family:Meiryo,"メイリオ","Hiragino Sans","Yu Gothic",sans-serif;background:var(--bg);color:var(--tx);font-size:15.5px;line-height:1.65}
+a{color:var(--navy);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1160px;margin:0 auto;padding:0 14px}
+.top{background:var(--navy);color:#dbe6ff;font-size:12.5px;padding:6px 0}.top .wrap{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.hd{display:flex;align-items:center;gap:18px;padding:16px 0 14px}
+.logo{font-size:30px;font-weight:700;color:var(--navy);line-height:1.15;white-space:nowrap}.logo b{color:var(--ok)}.logo small{display:block;font-size:11px;font-weight:400;color:var(--mu);letter-spacing:.18em}
+.sb{flex:1;background:#fff;border:1px solid var(--bd);border-radius:8px;padding:6px;display:flex;gap:8px}
+.sb input{flex:1;min-width:0;border:0;padding:8px 10px;font-size:16px;font-family:inherit;outline:0}
+.sb button{background:var(--blue);color:#fff;border:0;border-radius:6px;padding:0 24px;font-size:16px;font-family:inherit;cursor:pointer}
+.grid{display:grid;grid-template-columns:190px 1fr 290px;gap:16px;align-items:start;padding-bottom:40px}.grid>*{min-width:0}
+.box{background:#fff;border:1px solid var(--bd);border-radius:8px;margin-bottom:16px;overflow:hidden}
+.bh{padding:11px 14px;font-weight:700;font-size:16px;color:var(--navy);border-bottom:1px solid var(--bd);border-left:5px solid var(--blue);background:#f7f9fd;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.bh select{font-size:14px;padding:3px;font-family:inherit}
+.menu a{display:flex;align-items:center;gap:9px;padding:10px 12px;border-top:1px solid #e8edf6;font-size:15px;color:var(--tx);cursor:pointer}
+.menu a:first-child{border-top:0}.menu a:hover{background:#f3f7ff;text-decoration:none}
+.menu a.on{background:#e8f0ff;font-weight:700;color:var(--navy);box-shadow:inset 4px 0 0 var(--blue)}
+.menu i{font-style:normal;width:28px;height:28px;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;font-size:16px;background:#eef2f9;background:color-mix(in srgb,var(--c) 15%,#fff);flex:none}
+.menu em{margin-left:auto;font-style:normal;font-size:12.5px;color:var(--mu)}
+/* ピックアップ */
+.pick .sub{padding:12px 16px 0;color:var(--mu);font-size:14px}.pick .sub b{color:var(--ok)}
+.themes{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px 4px}
+.th{border:1px solid var(--bd);background:#fff;border-radius:999px;padding:2px 12px;font-size:13.5px;font-family:inherit;cursor:pointer;color:var(--tx)}
+.th:hover{background:#f3f7ff}.th b{color:var(--c)}
+.pf{display:flex;gap:14px;margin:10px 16px;padding:14px;border:1px solid var(--bd);border-left:5px solid var(--ok);border-radius:8px;background:#fffdf8}
+.pf .tile{width:96px;height:96px;font-size:44px}
+.pf .tt{font-size:19px;line-height:1.55}
+.pr{display:flex;gap:12px;padding:11px 16px;border-top:1px solid #e8edf6}
+.rk{flex:none;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.talk{margin-top:8px;font-size:13.5px;line-height:1.7;background:#fdf3dc;border-radius:6px;padding:7px 10px;color:#5a4412}
+details summary{cursor:pointer;font-size:13.5px;color:var(--ok);margin-top:5px;font-weight:700}
+/* タブ・一覧 */
+.tabs{display:flex;overflow-x:auto;border-bottom:1px solid var(--bd);scrollbar-width:none;background:#f7f9fd}
 .tabs::-webkit-scrollbar{display:none}
-.tab{flex:none;padding:13px 18px;font-size:16px;font-weight:700;font-family:inherit;color:#222;border:0;background:transparent;cursor:pointer;white-space:nowrap}
-.tab:hover{background:#fff4d6}
-.tab.on{background:var(--red);color:#fff}
-.up{font-size:14px;color:var(--mu);padding:10px 14px 0;font-weight:700}
+.tab{flex:none;padding:12px 16px;font-size:15px;font-family:inherit;color:var(--tx);border:0;background:transparent;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent}
+.tab:hover{background:#eef3fc}.tab.on{font-weight:700;color:var(--navy);background:#fff;border-bottom-color:var(--blue)}
+.up{font-size:13.5px;color:var(--mu);padding:10px 16px 0}
 .sec{padding:8px 0 4px}
-.sec h3{margin:6px 14px 8px;padding:10px 14px;font-size:18px;color:#fff;border-radius:8px;display:flex;justify-content:space-between;align-items:center}
-.sec.k h3{background:linear-gradient(90deg,#ff4d2e,#ff9a1f)}.sec.z h3{background:linear-gradient(90deg,#1f5fe0,#14b8d8)}
-.sec h3 span{font-weight:700;font-size:14px;background:rgba(255,255,255,.3);padding:1px 12px;border-radius:999px}
-.it{display:flex;gap:12px;align-items:center;margin:0 14px 10px;padding:12px;border:1px solid #cfdcf5;border-left:7px solid var(--c);border-radius:8px;background:#fff;transition:.12s}
-.it:hover{background:#fff8e3;box-shadow:0 3px 10px rgba(0,0,0,.12)}
-.tile{flex:none;width:64px;height:64px;border-radius:10px;background:var(--g);display:flex;align-items:center;justify-content:center;font-size:32px}
-.it.ft{padding:14px}.it.ft .tile{width:112px;height:84px;font-size:46px}
-.tt{font-size:16.5px;font-weight:700;line-height:1.6;color:var(--lk)}.ft .tt{font-size:19px}
-.mt{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--mu);margin-top:5px}
-.pill{background:var(--c);color:#fff;font-weight:700;font-size:12.5px;border-radius:999px;padding:1px 10px}
-.new{background:#ff2d55;color:#fff;border-radius:6px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;vertical-align:1px}
-.more{display:block;width:calc(100% - 28px);margin:4px 14px 12px;padding:12px;border:2px solid var(--blue);border-radius:8px;background:#fff;color:var(--blue);font-size:16px;font-weight:700;font-family:inherit;cursor:pointer}
-.more:hover{background:#eaf3ff}
-.empty{padding:22px;text-align:center;color:var(--mu);font-size:15px}
+.sec h3{margin:6px 16px 8px;padding:7px 12px;font-size:16px;border-radius:6px;display:flex;justify-content:space-between;align-items:center;background:#f4f6fa;border-left:5px solid var(--c);color:var(--navy)}
+.sec.k{--c:var(--ok)}.sec.z{--c:var(--blue)}
+.sec h3 span{font-weight:400;font-size:13px;color:var(--mu)}
+.it{display:flex;gap:12px;align-items:center;margin:0 16px 8px;padding:11px 12px;border:1px solid var(--bd);border-radius:8px;background:#fff}
+.it:hover{background:#f7faff;box-shadow:0 2px 8px rgba(23,56,122,.10)}
+.tile{flex:none;width:56px;height:56px;border-radius:10px;background:#eef2f9;background:color-mix(in srgb,var(--c) 14%,#fff);display:flex;align-items:center;justify-content:center;font-size:28px}
+.it.ft .tile{width:84px;height:72px;font-size:36px}
+.tt{font-size:16px;font-weight:700;line-height:1.6;color:var(--navy)}.ft .tt{font-size:18px}
+.mt{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--mu);margin-top:4px}
+.pill{background:#eef2f9;background:color-mix(in srgb,var(--c) 12%,#fff);color:var(--c);border:1px solid color-mix(in srgb,var(--c) 35%,#fff);font-size:12.5px;border-radius:999px;padding:0 9px}
+.new{background:var(--red);color:#fff;border-radius:4px;padding:0 7px;font-size:12px;font-weight:700;margin-right:6px;vertical-align:1px}
+.more{display:block;width:calc(100% - 32px);margin:4px 16px 12px;padding:10px;border:1px solid var(--bd);border-radius:8px;background:#fff;color:var(--blue);font-size:15px;font-family:inherit;cursor:pointer}
+.more:hover{background:#f3f7ff}
+.empty{padding:20px;text-align:center;color:var(--mu)}
+/* 右 */
 .sc{display:grid;grid-template-columns:repeat(3,1fr);text-align:center}
-.sc div{padding:14px 4px;border-left:1px solid #dfe8f7}.sc div:first-child{border-left:0}
-.sc b{display:block;font-size:34px;color:var(--red);line-height:1.1}.sc span{font-size:13px;color:var(--mu);font-weight:700}
-.pk{padding:12px 14px;border-top:1px solid #dfe8f7;display:flex;gap:10px}.pk:first-of-type{border-top:0}
-.pk .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center}
-.pk .n.s{background:#6b84c8}
-.pk a{font-weight:700;line-height:1.6;font-size:15.5px}
-.pk details{margin-top:6px}.pk summary{font-size:14px;color:#d9480f;cursor:pointer;font-weight:700}
-.pk p{margin:6px 0 0;font-size:14px;line-height:1.7;background:#fff3c4;padding:8px 10px;border-left:4px solid #ff9a1f;border-radius:4px}
-@media(max-width:900px){.grid{grid-template-columns:1fr}.lf{display:none}.hd{flex-direction:column;align-items:stretch;gap:10px}.logo{text-align:center}.it.ft .tile{width:84px;height:64px;font-size:34px}}
+.sc div{padding:12px 4px;border-left:1px solid #e8edf6}.sc div:first-child{border-left:0}
+.sc b{display:block;font-size:28px;color:var(--navy);line-height:1.2}.sc span{font-size:12.5px;color:var(--mu)}
+.sd{padding:10px 14px;border-top:1px solid #e8edf6}.sd:first-of-type{border-top:0}.sd a{font-size:14.5px;font-weight:700;line-height:1.55}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.lf{display:none}.hd{flex-direction:column;align-items:stretch;gap:10px}.logo{text-align:center}.pf{flex-direction:column}.pf .tile{width:72px;height:72px;font-size:34px}}
 </style></head><body>
 <div class="top"><div class="wrap"><span>沖縄の求人・採用ニュースを毎朝自動でお届け</span><span>更新: __TODAY__</span></div></div>
 <div class="wrap">
-<div class="hd"><div class="logo">沖縄求人ニュース<small>OKINAWA JOB NEWS</small></div>
+<div class="hd"><div class="logo">沖縄<b>求人</b>ニュース<small>OKINAWA JOB NEWS</small></div>
 <div class="sb"><input type="search" id="q" placeholder="キーワードで記事を検索（例：最低賃金、派遣、コールセンター）"><button id="go">検索</button></div></div>
-<div class="tick" id="tick"></div>
 <div class="grid">
 <aside class="lf"><div class="box"><div class="bh">カテゴリ</div><div class="menu" id="menu"></div></div></aside>
 <section>
-<div class="box"><div class="tabs" id="tabs"></div><div class="up" id="up"></div><div id="main"></div></div>
+<div class="box pick"><div class="bh" style="border-left-color:var(--ok)">🌺 今週のピックアップニュース</div>
+<div class="sub" id="psub"></div><div class="themes" id="themes"></div><div id="pick"></div></div>
+<div class="box" id="listbox"><div class="tabs" id="tabs"></div><div class="up" id="up"></div><div id="main"></div></div>
 </section>
 <aside>
 <div class="box"><div class="bh">きょうの件数</div><div class="sc"><div><b id="s1">-</b><span>きょうの新着</span></div><div><b id="s2">-</b><span>沖縄・7日</span></div><div><b id="s3">-</b><span>全国・7日</span></div></div></div>
-<div class="box"><div class="bh">🔥 注目ニュース TOP5</div><div id="pk"></div></div>
-<div class="box"><div class="bh">表示期間<select id="pd"><option value="0">今日</option><option value="7" selected>直近7日</option><option value="30">直近30日</option><option value="9999">全期間</option></select></div></div>
+<div class="box"><div class="bh" style="border-left-color:var(--blue)">🇯🇵 全国の注目</div><div id="nat"></div></div>
+<div class="box"><div class="bh">表示期間<select id="pd"><option value="0">今日</option><option value="7" selected>直近7日</option><option value="30">直近30日</option></select></div></div>
 </aside>
 </div></div>
 <script>
-const A=__DATA__,T=new Date("__TODAY__T00:00:00+09:00"),$=s=>document.querySelector(s);
+const A=__DATA__.filter(a=>a.date<="__TODAY__"||true),T=new Date("__TODAY__T00:00:00+09:00"),$=s=>document.querySelector(s);
 const ago=a=>Math.round((T-new Date(a.date+"T00:00:00+09:00"))/864e5);
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 const wd="日月火水木金土",md=d=>{const x=new Date(d+"T12:00:00Z");return (x.getUTCMonth()+1)+"/"+x.getUTCDate()+"("+wd[x.getUTCDay()]+")"};
-const CAT={"市場動向":["#0aa5c2","📈","#0aa5c2,#0b6fa0"],"賃金":["#e8a317","💴","#f5b82e,#e8801a"],"法改正・制度":["#7c4dff","⚖️","#9a6bff,#5b34d6"],"企業の採用":["#16a34a","🏢","#34c06a,#0f8a3e"],"BPO・派遣":["#ff6a3d","🎧","#ff8a3d,#e8442a"],"媒体・競合":["#e11d74","📣","#ff4d94,#c0125f"],"採用手法":["#2563eb","🤝","#4a86ff,#1a46b8"]};
-const cv=c=>CAT[c]||["#64748b","📰","#8a97a8,#566275"];
+const dmd=n=>{const x=new Date(T.getTime()-n*864e5+9*36e5);return (x.getUTCMonth()+1)+"/"+x.getUTCDate()};
+const CAT={"市場動向":["#0e7c93","📈"],"賃金":["#a86b00","💴"],"法改正・制度":["#6b46c1","⚖️"],"企業の採用":["#15803d","🏢"],"BPO・派遣":["#c2410c","🎧"],"媒体・競合":["#be185d","📣"],"採用手法":["#1d4ed8","🤝"]};
+const cv=c=>CAT[c]||["#475569","📰"];
 const cats=[...new Set(A.flatMap(a=>a.cats))];
-let tab="main",open={};
-const TABS=[["main","主要"],["oki","🌺 沖縄"],["zen","🇯🇵 全国"],...cats.map(c=>["c:"+c,c])];
+let tab="oki",open={};
+const TABS=[["oki","🌺 沖縄"],["zen","🇯🇵 全国"],["all","すべて"],...cats.map(c=>["c:"+c,c])];
 function item(a,feat){
  const c=cv(a.cats[0]);const d=el("div","it"+(feat?" ft":""));d.style.setProperty("--c",c[0]);
- const t=el("div","tile",c[1]);t.style.setProperty("--g","linear-gradient(135deg,"+c[2]+")");
+ d.append(el("div","tile",c[1]));
  const b=el("div");b.style.flex="1";b.style.minWidth="0";
  const h=el("a","tt",a.title);h.href=a.url;h.target="_blank";h.rel="noopener";
  const tw=el("div");if(ago(a)<=1)tw.append(el("span","new","NEW"));tw.append(h);b.append(tw);
  const m=el("div","mt");a.cats.forEach(x=>{const s=el("span","pill",x);s.style.setProperty("--c",cv(x)[0]);m.append(s)});
- m.append(el("span",0,a.source+" ・ "+md(a.date)));b.append(m);
- d.append(t,b);return d}
+ m.append(el("span",0,a.source+" ・ "+md(a.date)));b.append(m);d.append(b);return d}
 function section(title,cls,list,key){
  const s=el("div","sec "+cls);
  if(title){const h=el("h3",0,title);h.append(el("span",0,list.length+"件"));s.append(h)}
  if(!list.length){s.append(el("div","empty","該当する記事がありません"));return s}
  s.append(item(list[0],true));
- const lim=open[key]?999:7;
- list.slice(1,lim).forEach(a=>s.append(item(a)));
+ const lim=open[key]?999:7;list.slice(1,lim).forEach(a=>s.append(item(a)));
  if(list.length>lim){const b=el("button","more","もっと見る（残り"+(list.length-lim)+"件）▾");b.onclick=()=>{open[key]=1;render()};s.append(b)}
  return s}
+function pickup(){
+ let days=7,pool=A.filter(a=>a.oki&&ago(a)<=7);
+ if(pool.length<3){days=14;pool=A.filter(a=>a.oki&&ago(a)<=14)}
+ pool.sort((x,y)=>y.score-x.score||(y.date>x.date?1:-1));
+ const out=[],cnt={};
+ for(const a of pool){const k=a.cats[0];if((cnt[k]||0)>=2)continue;cnt[k]=(cnt[k]||0)+1;out.push(a);if(out.length>=5)break}
+ for(const a of pool){if(out.length>=5)break;if(!out.includes(a))out.push(a)}
+ return {out,days,pool}}
+function talkBox(a){const d=el("details"),s=el("summary",0,"💬 営業での使い方");d.append(s,el("div","talk",a.talk));return d}
 function render(){
  const w=A.filter(a=>ago(a)<=7);
  $("#s1").textContent=A.filter(a=>ago(a)<=0).length;$("#s2").textContent=w.filter(a=>a.oki).length;$("#s3").textContent=w.filter(a=>!a.oki).length;
- const top=w.slice().sort((x,y)=>y.score-x.score).slice(0,5);
- const pk=$("#pk");pk.replaceChildren();
- top.forEach((a,i)=>{const d=el("div","pk");d.append(el("div","n"+(i>2?" s":""),i+1));const r=el("div");const l=el("a",0,a.title);l.href=a.url;l.target="_blank";l.rel="noopener";r.append(l);
-  const m=el("div","mt",a.source+" ・ "+md(a.date));r.append(m);
-  if(a.talk){const dt=el("details"),sm=el("summary",0,"💬 営業トーク例");dt.append(sm,el("p",0,a.talk));r.append(dt)}d.append(r);pk.append(d)});
- if(!top.length)pk.append(el("div","empty","まだ記事がありません"));
- const tk=$("#tick");tk.replaceChildren();top.slice(0,2).forEach(a=>{const l=el("a",0,"▶ "+a.title.slice(0,34)+(a.title.length>34?"…":""));l.href=a.url;l.target="_blank";l.rel="noopener";tk.append(l)});
+ // ピックアップ
+ const P=pickup(),pk=$("#pick");pk.replaceChildren();
+ $("#psub").replaceChildren();
+ if(P.out.length){const s=$("#psub");s.append("沖縄で今、こんなことが話題です（",dmd(P.days)+"〜"+dmd(0)+"・全"+P.pool.length+"件から厳選）")}
+ else $("#psub").textContent="この期間の沖縄の記事はまだ集まっていません。毎朝の自動更新をお待ちください。";
+ const cnt={};P.pool.forEach(a=>a.cats.forEach(c=>cnt[c]=(cnt[c]||0)+1));
+ const th=$("#themes");th.replaceChildren();
+ Object.entries(cnt).sort((x,y)=>y[1]-x[1]).slice(0,6).forEach(([c,n])=>{const b=el("button","th");b.style.setProperty("--c",cv(c)[0]);b.append(cv(c)[1]+" "+c+" ");b.append(el("b",0,n+"件"));b.onclick=()=>{tab="c:"+c;render();$("#listbox").scrollIntoView({behavior:"smooth"})};th.append(b)});
+ P.out.forEach((a,i)=>{
+  if(i===0){const c=cv(a.cats[0]);const f=el("div","pf");f.style.setProperty("--c",c[0]);f.append(el("div","tile",c[1]));
+   const b=el("div");b.style.cssText="flex:1;min-width:0";const tw=el("div");tw.append(el("span","new","注目"));
+   const h=el("a","tt",a.title);h.href=a.url;h.target="_blank";h.rel="noopener";tw.append(h);b.append(tw);
+   const m=el("div","mt");a.cats.forEach(x=>{const s=el("span","pill",x);s.style.setProperty("--c",cv(x)[0]);m.append(s)});m.append(el("span",0,a.source+" ・ "+md(a.date)));b.append(m);
+   if(a.talk)b.append(talkBox(a));f.append(b);pk.append(f)}
+  else{const r=el("div","pr");r.append(el("div","rk",i+1));const b=el("div");b.style.cssText="flex:1;min-width:0";
+   const tw=el("div");if(ago(a)<=1)tw.append(el("span","new","NEW"));const h=el("a","tt",a.title);h.href=a.url;h.target="_blank";h.rel="noopener";tw.append(h);b.append(tw);
+   const m=el("div","mt");a.cats.forEach(x=>{const s=el("span","pill",x);s.style.setProperty("--c",cv(x)[0]);m.append(s)});m.append(el("span",0,a.source+" ・ "+md(a.date)));b.append(m);
+   if(a.talk)b.append(talkBox(a));r.append(b);pk.append(r)}});
+ // 右：全国の注目
+ const nat=$("#nat");nat.replaceChildren();
+ w.filter(a=>!a.oki).sort((x,y)=>y.score-x.score).slice(0,4).forEach(a=>{const d=el("div","sd");const l=el("a",0,a.title);l.href=a.url;l.target="_blank";l.rel="noopener";d.append(l,el("div","mt",a.source+" ・ "+md(a.date)));nat.append(d)});
+ if(!nat.children.length)nat.append(el("div","empty","まだ記事がありません"));
+ // タブ・メニュー
  const tb=$("#tabs");tb.replaceChildren();TABS.forEach(([k,n])=>{const b=el("button","tab"+(k===tab?" on":""),n);b.onclick=()=>{tab=k;render()};tb.append(b)});
  const mn=$("#menu");mn.replaceChildren();
- [["main","📰","主要","#16215e"],["oki","🌺","沖縄","#e8552d"],["zen","🇯🇵","全国","#3b6cf6"]].concat(cats.map(c=>["c:"+c,cv(c)[1],c,cv(c)[0]])).forEach(([k,i,n,col])=>{
+ [["oki","🌺","沖縄","#d9622b"],["zen","🇯🇵","全国","#2563c9"],["all","📰","すべて","#475569"]].concat(cats.map(c=>["c:"+c,cv(c)[1],c,cv(c)[0]])).forEach(([k,i,n,col])=>{
   const a=el("a",k===tab?"on":"");const ic=el("i",0,i);ic.style.setProperty("--c",col);a.append(ic,el("span",0,n));
-  const cnt=k==="main"?w.length:k==="oki"?w.filter(x=>x.oki).length:k==="zen"?w.filter(x=>!x.oki).length:w.filter(x=>x.cats.includes(k.slice(2))).length;
-  a.append(el("em",0,cnt));a.onclick=()=>{tab=k;render()};mn.append(a)});
+  const cn=k==="all"?w.length:k==="oki"?w.filter(x=>x.oki).length:k==="zen"?w.filter(x=>!x.oki).length:w.filter(x=>x.cats.includes(k.slice(2))).length;
+  a.append(el("em",0,cn));a.onclick=()=>{tab=k;render();$("#listbox").scrollIntoView({behavior:"smooth"})};mn.append(a)});
+ // 一覧
  const p=+$("#pd").value,q=$("#q").value.trim();
  let L=A.filter(a=>ago(a)<=p&&(!q||(a.title+a.source).includes(q)));
  if(tab==="oki")L=L.filter(a=>a.oki);else if(tab==="zen")L=L.filter(a=>!a.oki);else if(tab.startsWith("c:"))L=L.filter(a=>a.cats.includes(tab.slice(2)));
- if(tab==="main")L=L.slice().sort((x,y)=>y.score-x.score||(y.date>x.date?1:-1));
- $("#up").textContent=md("__TODAY__")+" 更新 ／ 全"+L.length+"件";
+ $("#up").textContent=md("__TODAY__")+" 更新 ／ "+L.length+"件";
  const m=$("#main");m.replaceChildren();
  if(tab==="oki")m.append(section("","k",L,"o"));else if(tab==="zen")m.append(section("","z",L,"z"));
  else{m.append(section("🌺 沖縄のニュース","k",L.filter(a=>a.oki),"k"+tab));m.append(section("🇯🇵 全国のニュース","z",L.filter(a=>!a.oki),"z"+tab))}
