@@ -1,5 +1,31 @@
 [
  {
+  "id": "03a0a695046d",
+  "title": "企業68％「人手不足」 海邦総研調査 県内 高水準続く",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKTElUQVlRcDlqYm80TFNSNDZrZGtDODI4ZndiRDg1Yk5qQ2hoX19nUUpWZ3ZNYU5ENXVjb1d4aEtIc1lXSUxMSF9UTFc4NDFmdllHWEdubFpObFo2R3c?oc=5",
+  "source": "沖縄タイムス社",
+  "date": "2026-10-25",
+  "cats": [
+   "市場動向"
+  ],
+  "oki": true,
+  "score": 7,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
+  "id": "592c5ba4049f",
+  "title": "沖縄の企業68%が人手不足 対策は「給与・賞与など」最多 海邦総研調べ",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SNWxVNTRBajRyMHBBbEpqWmJKZktDdHI1c2VwamdlQnVYeUFYQ05pNlMzRFgyME1ndEdqM01DelJZTmFka20taHF5QTFGbTdmNElTYWVPSHpxMDVLOW1mVlhR?oc=5",
+  "source": "琉球新報デジタル",
+  "date": "2026-10-24",
+  "cats": [
+   "市場動向"
+  ],
+  "oki": true,
+  "score": 9,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
   "id": "e0c189f22186",
   "title": "県内企業６８％が人手不足 海邦総研調査 前年より緩和も継続",
   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SNWxVNTRBajRyMHBBbEpqWmJKZktDdHI1c2VwamdlQnVYeUFYQ05pNlMzRFgyME1ndEdqM01DelJZTmFka20taHF5QTFGbTdmNElTYWVPSHpxMDVLOW1mVlhR?oc=5",
@@ -13,10 +39,49 @@
   "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
  },
  {
+  "id": "53d4e429e480",
+  "title": "新卒内定人数、過半の23業種で減少 大卒文系は5年ぶりマイナス",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsZGNRQzBZX2lqeWl0czhJLXJDZTVjM2RUUU9sUkw2R2xwa0RqTVZzeXVtbW56VGoydVdUeUh6aDAxUUQxRVVoUjViMVBGUXlzZWl1b2c5ZmxxSlVaeTNEdlczYXluTklLV3VObw?oc=5",
+  "source": "日本経済新聞",
+  "date": "2026-10-24",
+  "cats": [
+   "企業の採用"
+  ],
+  "oki": false,
+  "score": 3,
+  "talk": "同業・近隣企業が採用を強化している動きとして、競合状況の共有から商談に入れます。"
+ },
+ {
   "id": "5536f2aed4ef",
   "title": "【今週の労務書】『中堅・中小企業のための「高卒採用・定着」の教科書』",
   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzV3VtZno4aXRqOFZ3eDV6UmViNk1MRmVmajlCQnFIS3hLQTNHS0dHWkxpajFobjdkSHFIVmh6bFlUX2c1VlBLWDlPdERXQXcwS3pXMkJ0Q2ZrcjlMeF9reHdrQmUxcGRLRmpwODQ5czhOcnFpUFHSAXZBVV95cUxQc1d1bWZ6OGl0ajhWd3g1elJlYjZNTEZlZmo5QkJxSEt4S0EzR0tHR1pMaWoxaG43ZEhxSFZoemxZVF9nNVZQS1g5T3REV0F3MEt6VzJCdENma3I5THhfa3h3a0JlMXBkS0ZqcDg0OXM4TnJxaVBR?oc=5",
   "source": "ｄメニューニュース",
+  "date": "2026-10-24",
+  "cats": [
+   "採用手法"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "定着や選考辞退への対策として、採用後まで見据えた提案につなげられます。"
+ },
+ {
+  "id": "d116ee540156",
+  "title": "宮崎県、最低賃金きょうから１０８５円",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVWV3RGZnWUxVYnV5d1RfdkprVGtYV2VOc1Riak02WUhrSWVyUEJqcTRONjdNY3Bya0VxTEs0SEdOZ2F5UEx4V3BaYmxBcGRfbWlINHcxenZiamxydjRTVTA3YmJSRUhyYnM4a1l5RDJXbDFUTXgyUXVCTHUyY2N2UNIBhgFBVV95cUxORkJfMDNYZ001cWltb0VlMzFyR0RxT0xZcWhhcW14Z2paMVRKc0RQZ2FtSzU4NnEzRWtCNWZuV1VOSk8xVmlITm5hRndNSlpuUmlHdWplZ1RaQlRiM2dTQTdxMUlOdEZfc05HbnBfdXNJakthdWpQZHFXbzBxbjBRQXlNVFF5UQ?oc=5",
+  "source": "ｄメニューニュース",
+  "date": "2026-10-24",
+  "cats": [
+   "賃金"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
+  "id": "061eed0a3ee3",
+  "title": "外国人材関係機関とマッチングイベント 宮崎県が11月９日",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNSzh5WXhiQzFIdHYzdThKengyVFF4am1XTzg2VEZONUZmSXRUQlZhcUxFLVZfQ1R1SFNBWUczMHZKT09vcTJza3FKSTdhc1Y4QTkteg?oc=5",
+  "source": "観光経済新聞",
   "date": "2026-10-24",
   "cats": [
    "採用手法"
@@ -93,6 +158,20 @@
   "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
  },
  {
+  "id": "8b43b05ca691",
+  "title": "宮崎県内の最低賃金が1085円へ引き上げ　宮崎駅前で労働局がチラシを配りPR活動",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00d1JwTGc3bXB3aV80UHowbU9qQVJwajR6ZTJqckotTEQzYy1LcXZGX2F3b2c2aTdYRnZWTjdQVDlSZnFoMGtObDlLcUZBSE9qWGN0VXRzb2ZFQ3kyd2dPUmhHenBjNkttX1lfLdIBckFVX3lxTFAtNVNpLXdaa3RBY1c5YzNsWEdCMWc4YkYxaV8xWWQ2eC1ZcGItY1I0WFc3Vkw4V0dZYmRZVnVhcjR2aTBpVkFUakFmS1pGeFE0eVdyY2E5eVlGNW5yS3R3bVZiaWl4aTVLYV8yWnhlQzJNdw?oc=5",
+  "source": "ｄメニューニュース",
+  "date": "2026-10-23",
+  "cats": [
+   "賃金",
+   "法改正・制度"
+  ],
+  "oki": false,
+  "score": 2,
+  "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
   "id": "4df401d3bf83",
   "title": "茨城県内企業、53%が正社員「不足」　新卒採用に苦戦傾向強まる",
   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQURWdVhIS0JWWjdTNXZ2WkZGVHpuUG9aWkN1VEZvWEZadXJHa0hMUW5mbm5QRVRPRHM2SHJFM01BWG5sa0FqaURKendiYllYN0syeEF0NmFCMFEzcVFWU0hkS0M5a3JIb1BWZ3VPVC13WkRuRHRxazFEbkVzMVVvb1daQWdJblI5ckFTMV9LLVVwWWpfQ3RqY0xWY08tZ9IBngFBVV95cUxPQURWdVhIS0JWWjdTNXZ2WkZGVHpuUG9aWkN1VEZvWEZadXJHa0hMUW5mbm5QRVRPRHM2SHJFM01BWG5sa0FqaURKendiYllYN0syeEF0NmFCMFEzcVFWU0hkS0M5a3JIb1BWZ3VPVC13WkRuRHRxazFEbkVzMVVvb1daQWdJblI5ckFTMV9LLVVwWWpfQ3RqY0xWY08tZw?oc=5",
@@ -130,6 +209,32 @@
   "oki": false,
   "score": 1,
   "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
+  "id": "1edc5ae16c1c",
+  "title": "連合山梨 年次大会 最低賃金の引き上げや来年の春闘の方針を報告 4年連続で5%以上の賃上げ要求を目指す方針",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iUjByNzZ1SjU0YmdWcUNMUmU5MXVaN05TYzFIWXVDWUlkb2FndkkyX1d1MUpRWHFwQ2pJNmRZbVliUmN6N2x2X3pUUHFXNTktNEVmU1VVNV9mRVZDaDdoMjluaUhGT3l3TGJMdE1B?oc=5",
+  "source": "au Webポータル",
+  "date": "2026-10-23",
+  "cats": [
+   "賃金"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
+  "id": "c343eaa1b3c1",
+  "title": "支援中の就労者数600名突破！MIRAI、特定技能「介護・農業」分野における外国人材の登録支援・定着サポート体制を一層強化",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SenIxT0RMQ05oeWtVRWlWOF9MVXVqOENoTU1oeUJwZmhsM09sSFcwSmItR0dUSG54MV8tVnVjYi1oX3J5Mmp3eEpIa2cxSmVzYWR5WTJEeFVEX1FqVEdDUzZ6RW1zdnZXbnc?oc=5",
+  "source": "PR TIMES",
+  "date": "2026-10-23",
+  "cats": [
+   "採用手法"
+  ],
+  "oki": false,
+  "score": 0,
+  "talk": "定着や選考辞退への対策として、採用後まで見据えた提案につなげられます。"
  },
  {
   "id": "63b3f8c69d06",
@@ -268,6 +373,34 @@
   "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
  },
  {
+  "id": "59e3d2096edf",
+  "title": "【画像】12月から最低賃金1092円に引き上げ｢物価高｣と｢人手不足｣Wパンチに事業者は 7/15",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TcFY3ODFTVGJXV1I1eUVsanBHM01WdUtYbGdRVVMtNGFhX2ZnR2VQaUhJMGxRZ1Q2dkowRU8tZWxkeWhuSTgyMW1TSHY1TmJOUm10aHA4eFpmSjdyWDlBTmtNMnA5LUR4SUZrSUdXa0lWT1p2QjhtdlRrV2E?oc=5",
+  "source": "ライブドアニュース",
+  "date": "2026-10-22",
+  "cats": [
+   "市場動向",
+   "賃金"
+  ],
+  "oki": false,
+  "score": 2,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
+  "id": "769bdc3c70dd",
+  "title": "【画像】12月から最低賃金1092円に引き上げ｢物価高｣と｢人手不足｣Wパンチに事業者は 11/15",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrZW1tV3NnSFhaQ3BvS05BelNTS1lyLUZhWW9OZngydkZWMWgxNEdBcU5xRkFjZW1USEY3ZW9fLVY5aXBWbU96Z1ZwSHV1bDBTZk1GRkpRbDNqbmZfVXZxay1EVGp5LVl5SnhmN2w2SVVYQ0lfUzN1c3NDZ0o?oc=5",
+  "source": "ライブドアニュース",
+  "date": "2026-10-22",
+  "cats": [
+   "市場動向",
+   "賃金"
+  ],
+  "oki": false,
+  "score": 2,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
   "id": "b51c7a8193db",
   "title": "最低賃金引き上げで時給1085円に　パートの扶養内での働き方や企業の経営に影響",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xWDJnSXlOcUo5THF4WjNab2V5aEd3dzZzNjNCZkxyV0ZfNnl2RTFXTDhXOE9yOGR5VmxhMFB4VXdtR0RlVG9FQVdZei04blZMYTdoWHE1SnIzOVRfZmItWkZvQjdseC0zdHdEb9IBckFVX3lxTE9veVAtakVjVUdHS0NpbFRKSmFJUHAwcDF2Y0xNYUhDd2NnSDIxbllvcTZlckxZMGtIb2RMRDFWUWQzVERkWGlLc3U3bFpoSzFYa0kxWGJFZmEtaGZwV1JHUHItMmhKMnBkckJYaWJDRGVTZw?oc=5",
@@ -292,6 +425,19 @@
   "oki": false,
   "score": 1,
   "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
+  "id": "5129a5bccb92",
+  "title": "大分県内の最低賃金、11月から1096円に　「自分でチェックしてほしい」JR大分駅前で街頭啓発",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TbzR2bk1WTUNyRUU4ckVXcjFGLWZRTHFMdFF0cGlXNHpiTlZqdGVKbWZVVjljMTVMc2lqRjZHZ1ZmZWJvZ0RFVUFaTUFwYkwwS2NjcWM2a1h2ZnJXQ1NDUmpDcjQtby05OEFFRXpjRdIBdEFVX3lxTE92Ti1uZlhlVE03MzU2SktkaUMtN0F0Q3RwTFRaSHk3dS1UcnEwR3g2US1jOU92Q3oxbjktRkt2Vk5pdjlXWWFabk0xX2F0TzBpbW1QM3ZTRU5XX2lDdWpsNTBMbWRHVF9INVQyaVNGMndjaExi?oc=5",
+  "source": "ｄメニューニュース",
+  "date": "2026-10-22",
+  "cats": [
+   "賃金"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
  },
  {
   "id": "e9b9511a8147",
