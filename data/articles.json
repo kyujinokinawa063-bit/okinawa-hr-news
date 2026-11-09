@@ -1,5 +1,57 @@
 [
  {
+  "id": "afc0dddb65eb",
+  "title": "佐賀県内 9月の有効求人倍率1.2倍 九州・沖縄では1位",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Ob1pnMFNjR28td01vZU5pMmlWQks0SW9wRDBWdFFHSXlxVm1RNjhUc2RibXBwZFIyWmRjc2hnVVdiX2FwZVlPQzFNeVljSElGNFZfQjBEeHFHMUZFUmNj?oc=5",
+  "source": "NHKニュース",
+  "date": "2026-11-09",
+  "cats": [
+   "市場動向"
+  ],
+  "oki": true,
+  "score": 9,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
+ },
+ {
+  "id": "ab7b8db82e50",
+  "title": "Anfini、ワンキャリア主催「新卒採用の地図 Vol.5」に登壇",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95SEM1ekpwOW1RTzNOc0p5UFptWl9QRkNJNmdvVjl0OTZlS2owWE9GUEZjWUFJdDlFbEhSOUljV215clRYV1Y1ZGZYeER1b3RNTVBCVGhzTlphQU9fUEE?oc=5",
+  "source": "沖縄タイムス社",
+  "date": "2026-11-09",
+  "cats": [
+   "企業の採用"
+  ],
+  "oki": false,
+  "score": 3,
+  "talk": "同業・近隣企業が採用を強化している動きとして、競合状況の共有から商談に入れます。"
+ },
+ {
+  "id": "37846b1c6e7e",
+  "title": "北海道新聞社、「COMPANY® Talent Management」シリーズを採用～事業変革期を支える適材適所の人材配置の実現へ～",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBENUlXU1cwbm9GTElhUkh4RFVPajZfQUNwQ0FJOG5IWTlGeV96WDRZNmx0OWd5MGJIU2RKdW04Z2NFVkUwOTF3SUhDWUV4R21hSTNkY2FkYU53WFpZN3c?oc=5",
+  "source": "沖縄タイムス社",
+  "date": "2026-11-09",
+  "cats": [
+   "企業の採用"
+  ],
+  "oki": false,
+  "score": 3,
+  "talk": "同業・近隣企業が採用を強化している動きとして、競合状況の共有から商談に入れます。"
+ },
+ {
+  "id": "426568c8a5df",
+  "title": "SocioFutureと青森みちのく銀行 外国人材の生活・雇用安定支援で協業開始",
+  "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBvVDFFVTQ1ZVVTcUxhbmw5d3RKNkl1TEhqYlhZYjdmcTVNMnMtY251SDBrNjhNblcwQ2lyVHR0azA2ZGlRblE?oc=5",
+  "source": "Dellows News",
+  "date": "2026-11-09",
+  "cats": [
+   "採用手法"
+  ],
+  "oki": false,
+  "score": 0,
+  "talk": "定着や選考辞退への対策として、採用後まで見据えた提案につなげられます。"
+ },
+ {
   "id": "0e24c74d83eb",
   "title": "自治体 鈍い「価格転嫁」 中企庁 取引先リスト提出要請 賃上げ促進へ 是正を迫る",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iUlM5OUoyMUdZUGgxM1RtUUpPYk55NVlManZhZWtQOXJWM3hHU1h5Z1NTTHptOVpNVXRqNDJqOTViODBibkVFcG0tN2xqcjdoQ044ZTNtcGptN3hRVEE?oc=5",
@@ -11,6 +63,20 @@
   "oki": false,
   "score": 3,
   "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
+  "id": "70ee1ab24bbf",
+  "title": "新規求人数3カ月ぶり増 岡山労働局、判断は据え置き 9月雇用情勢 [岡山県]",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40eFYtdFo1VGlyM1pBRkE3U3lrVk5qVUJOa3V4MXN3NEp3RUtBLUczWW94dmxxcWdnQWktZVN4elo4Rk1wUFhPQ25iYTJReVhudXNWMEdyelBFVnRiZF9FVVJYM2JCTzQ?oc=5",
+  "source": "朝日新聞",
+  "date": "2026-11-08",
+  "cats": [
+   "市場動向",
+   "法改正・制度"
+  ],
+  "oki": false,
+  "score": 2,
+  "talk": "求人倍率や人手不足の動きを踏まえ、「今の時期は応募が集まりにくいので、条件や訴求の見直しを」とご提案できます。"
  },
  {
   "id": "0816de121371",
@@ -51,6 +117,19 @@
   "oki": false,
   "score": 1,
   "talk": "賃金水準の変化に合わせて、給与・時給の見せ方や条件の見直し時期ではないか、と切り出せます。"
+ },
+ {
+  "id": "128dee5c360f",
+  "title": "パーソルビジネスプロセスデザイン、新卒採用にAI導入 - 内定者フォローを強化",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91a0k1VWp3SUpoa3pILUY2NDJ6d0Exd2pxTUI0dVFtZExxWDZ4aVpkd3lOek1pc2ZNQ3RCRkVxM1VrbDZISXVuU0VFTGdnNG9tTUlyekZDa1ZCeHhYbFhhZjFtQTR5V1BicG5VRkhVT0FUZDlxUFVJ0gF8QVVfeXFMUFQ1Q2FwWFlRdkJ1YnNvb1ozY3BSNTZza1ZPMEtFX0cwMmxGMmt0eEROT1p3dmdJS19reURxeTNtdExxUlcwdEZmLUNveHdhQm9EZFJNQW5ZMk5CdmUtQjRtTGxYYVladUhMOW1KOVlCMVJod01SU3oteHFteg?oc=5",
+  "source": "ｄメニューニュース",
+  "date": "2026-11-06",
+  "cats": [
+   "企業の採用"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "同業・近隣企業が採用を強化している動きとして、競合状況の共有から商談に入れます。"
  },
  {
   "id": "22ed3baeaf28",
@@ -173,6 +252,19 @@
   "id": "92ca8d23e903",
   "title": "【長崎】外国人材の活用・定着に向け　県が商船三井･MOL CAREERと三者協定締結",
   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JbkIzQXhNaGsydHg4U2g5N25TZXZkLXBPcEFKaW8xY3ZacFlVcmxfVE9mTzEtNlBNZGNwQW5BMlQzLW05SHNTMFh4Z0lNU001c2pTM1A2dW93TURhZDdiT1NTOWFCdFRFWGJOM1A3QWxQMU03QVHSAXtBVV95cUxPaFZWUWxnaHVkcXNZLUp1VUFnT2FtbEFMcnQ3c3dHdEFHQTNyR042U19vUi1HUlFJNmpBalZzdnk3cEJBM0NIaFZIYlpyWGNZd2M4d1JEV1ozcURwMkVHd3Vsdm9icDd5a0RPTkRLOVgtR3NKcHY5N3RHTU0?oc=5",
+  "source": "ｄメニューニュース",
+  "date": "2026-11-04",
+  "cats": [
+   "採用手法"
+  ],
+  "oki": false,
+  "score": 1,
+  "talk": "定着や選考辞退への対策として、採用後まで見据えた提案につなげられます。"
+ },
+ {
+  "id": "ff35bf4cd499",
+  "title": "外国人材の受け入れ・定着支援を強化「県と商船三井などが連携協定」人材不足解消へ《長崎》",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1faDVZQ3p4M2V3RVFKWkNPRmRkNXAwR1NfR3NqZWptWlNLRkFxR244Q3pKcENCNlMxMC1MSDc2c3czUnVxQkpqSTY3Q3pUWkNtSGw4Y1BabEZuaHpDaU8xTHBCQUxVeURYdXpuZUY4bWRPbS1UTzBwcXJ2SdIBgAFBVV95cUxNRkpNZnVlaEpDY0hscGhyZUsxZ0loU2xkSklZYTQxOHNKb3RUVlV0clJGSmpuNVpPRjhQYnJJdVR3NWUwUHJuSXRETjFkbWZEUFBJWklJb2JRTk9ZZHhGdG5qelRxTEhseE9LSnBfdVd1dm1JRHF0dDQ2WTlYV2IzSg?oc=5",
   "source": "ｄメニューニュース",
   "date": "2026-11-04",
   "cats": [
